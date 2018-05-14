@@ -7,6 +7,8 @@ Package.describe({
   git: 'https://github.com/meteor-useraccounts/core.git',
 });
 
+Npm.depends({'ldap' : '0.7.1'});
+
 Package.onUse(function(api) {
   api.versionsFrom('METEOR@1.0.3');
 
